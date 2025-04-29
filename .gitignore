@@ -1,0 +1,19 @@
+# Ignore temporary and backup files
+*.asv
+*.autosave
+*.bak
+*.backup
+*.tmp
+
+# Ignore model checkpoints and large binary logs
+*.mat
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore hidden folders
+.*~
+
+# Optional: ignore large datasets if added
+MixedTest/*
